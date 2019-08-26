@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <TextView
+        android:text="New Payment Form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" android:layout_marginTop="101dp"
+        android:id="@+id/textView5"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:layout_centerHorizontal="true"/>
+        <ImageView
+        android:src="@drawable/bit"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageView6" android:scaleType="fitXY"/>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+
+        android:id="@+id/editText6" android:layout_alignParentBottom="true" android:layout_marginBottom="228dp"
+        android:hint="Enter the Hours Worked"/>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignParentBottom="true" android:layout_marginBottom="178dp"
+        android:id="@+id/editText7"
+        android:hint="Enter the Kilometer Travelled"/>
+        <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginTop="200dp"
+       android:id="@+id/spinner5"/>
+        <Button
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp" android:layout_centerHorizontal="true" android:id="@+id/button10"/>
+        <!--<ImageButton-->
+        <!--android:src="?android:attr/floatingToolbarCloseDrawable"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageButton"-->
+        <!--android:layout_alignTop="@+id/textView5"/>-->
+        </RelativeLayout>

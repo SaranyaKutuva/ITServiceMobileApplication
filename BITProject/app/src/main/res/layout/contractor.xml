@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                android:background="@android:color/background_light" android:layout_height="match_parent">
+
+    <ImageView
+            android:src="@drawable/bit"
+            android:layout_width="match_parent"
+            android:layout_height="84dp" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView5" android:scaleType="fitXY" app:srcCompat="@drawable/bitlogo"/>
+    <Button
+            android:text="SMS Client"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:id="@+id/button4"
+            android:background="@android:color/background_light"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="65dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="64dp"/>
+        <TextView
+                android:text="CONTRACTOR JOBS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp" android:layout_alignParentTop="true" android:layout_marginTop="83dp"
+                android:id="@+id/textView4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:textSize="18sp"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="239dp" android:layout_alignParentStart="true"
+            android:id="@+id/listViewContractor"
+            android:layout_alignParentTop="true" android:layout_marginTop="110dp"/>
+    <Button
+            android:text="Location"
+            android:layout_width="108dp"
+            android:layout_height="34dp"
+            android:id="@+id/button5"
+            android:background="@android:color/background_light" android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentEnd="true"/>
+        <Button
+                android:text="Accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"/>
+        <Button
+                android:text="Reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button7"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+                android:layout_marginStart="112dp"/>
+        <Button
+                android:text="Completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/button11"
+                android:layout_alignParentEnd="true"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="37dp" app:srcCompat="@drawable/ic_location"
+            android:id="@+id/imageView11"
+            android:layout_toEndOf="@+id/button7" android:layout_alignTop="@+id/button4"/>
+    <ImageView
+            android:layout_width="49dp"
+            android:layout_height="40dp" app:srcCompat="@drawable/ic_message"
+            android:id="@+id/imageView15" android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/button4"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_alignParentBottom="true" android:id="@+id/editText9" android:layout_alignParentStart="true"
+            android:hint="Enter the Arrival Time" android:layout_marginBottom="116dp"/>
+</RelativeLayout>

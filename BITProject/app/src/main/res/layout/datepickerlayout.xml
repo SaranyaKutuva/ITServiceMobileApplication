@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <DatePicker android:layout_width="wrap_content" android:layout_height="199dp"
+                android:alwaysDrawnWithCache="false" tools:calendarViewShown="false"
+                android:animateLayoutChanges="true"
+                android:theme="?android:attr/calendarViewStyle"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:layout_alignParentBottom="true"></DatePicker>
+</LinearLayout>

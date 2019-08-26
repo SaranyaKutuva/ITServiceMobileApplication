@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+   <!-- <ImageButton
+            android:src="?android:attr/floatingToolbarCloseDrawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/textView2" android:layout_alignParentLeft="true"/>
+            -->
+    <TextView
+            android:text="New Job Request Form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+            android:layout_centerHorizontal="true" android:layout_above="@+id/editText3"
+            android:layout_marginBottom="-111dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+
+            android:id="@+id/editText3" android:hint="Client Id" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="111dp" android:enabled="true"
+            android:freezesText="false"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="168dp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:id="@+id/spinner3" android:layout_alignParentTop="true" android:layout_marginTop="217dp"
+            android:layout_alignParentLeft="true" android:spinnerMode="dialog"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_alignParentStart="true"
+            android:id="@+id/editText4" android:hint="Enter the Date"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="208dp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true" android:id="@+id/spinner4"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="153dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="53dp" android:id="@+id/editText5"
+            android:hint="Enter the  Job Description"/>
+    <Button
+            android:text="Send"
+            android:layout_width="98dp"
+            android:layout_height="36dp"
+            android:id="@+id/button4"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="13dp"
+            android:background="?android:attr/colorControlActivated"
+            tools:targetApi="lollipop" android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="84dp" app:srcCompat="@drawable/bitlogo"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView3" android:scaleType="fitXY" android:layout_above="@+id/textView2"/>
+
+</RelativeLayout>

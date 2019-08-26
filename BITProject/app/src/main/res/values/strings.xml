@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BITProject</string>
+
+
+    <string-array name="lists">
+        <item>Select one</item>
+        <item>View the BIT Service Website</item>
+        <item>Call BIT Service</item>
+        <item>Email BIT Service</item>
+        <item>Click a Picture</item>
+    </string-array>
+    <array name="jobs">
+        <item>Network Support</item>
+        <item>Technical Support</item>
+        <item>Desktop Support</item>
+        <item>Database Support</item>
+        <item>Software Upgrade</item>
+        <item>Software Installation</item>
+        <item>Network Installation</item>
+        <item>Hardware Installation</item>
+        <item>Software Rollout</item>
+        <item>Computer Virus Removal</item>
+        <item>Data Backup Recovery</item>
+        <item>Windows Computer Support</item>
+        <item>Microsoft Office</item>
+    </array>
+    <array name="priority">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </array>
+    <array name="loc">
+        <item>Hornsby</item>
+        <item>Artarmon</item>
+    </array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

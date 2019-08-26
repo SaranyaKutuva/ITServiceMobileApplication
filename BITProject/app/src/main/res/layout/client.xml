@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:layout_height="match_parent">
+
+       <!--<Spinner-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="220dp" android:layout_alignParentStart="true" android:id="@+id/spinner"-->
+    <!--android:dropDownWidth="match_parent" android:animateLayoutChanges="true"-->
+    <!--android:layout_alignParentLeft="true"/>-->
+    <!--<TextView-->
+    <!--android:layout_width="89dp"-->
+    <!--android:layout_height="43dp" android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="84dp" android:layout_centerHorizontal="true" android:id="@+id/textView"/>-->
+    <Button
+            android:layout_width="235dp"
+            android:layout_height="34dp"
+            android:id="@+id/button2" android:text="New Job Request"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:layout_alignParentStart="true" android:layout_below="@+id/imageView7"/>
+    <!--&lt;!&ndash;<android.support.design.widget.FloatingActionButton&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@android:drawable/stat_sys_phone_call"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="79dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="54dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:clickable="true" android:layout_alignParentStart="true" android:layout_marginStart="70dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentBottom="true" android:layout_marginBottom="189dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/floatingActionButton" app:elevation="3dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:backgroundTint="?android:attr/colorMultiSelectHighlight" app:fabSize="auto"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:tint="?android:attr/colorMultiSelectHighlight"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/button6"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignTop="@+id/floatingActionButton"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="?android:attr/colorMultiSelectHighlight"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_toEndOf="@+id/button2" style="@android:style/Widget.Holo.Button.Borderless"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Button"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/button10" android:layout_alignParentEnd="true" android:layout_marginEnd="29dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignTop="@+id/floatingActionButton"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Button"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content" android:layout_alignParentStart="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerVertical="true" android:id="@+id/button11"/>&ndash;&gt;-->
+
+
+    <Button
+            android:text="www.bitservices.com.au"
+            android:layout_width="223dp"
+            android:layout_height="29dp"
+            android:id="@+id/button4" android:background="@color/common_google_signin_btn_text_dark_default"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_above="@+id/button2" android:layout_toEndOf="@+id/imageView7"/>
+    <Button
+            android:text="0287878712"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:id="@+id/button8"
+            android:background="@android:color/background_light"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_alignStart="@+id/button9"
+            android:layout_below="@+id/button9"/>
+    <Button
+            android:text="bitServices@bit.com.au"
+            android:layout_width="199dp"
+            android:layout_height="30dp"
+            android:id="@+id/button9" android:background="@android:color/background_light"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_alignParentEnd="true" android:layout_alignParentTop="true"/>
+    <Button
+            android:text="Photo"
+            android:layout_width="86dp"
+            android:layout_height="31dp"
+            android:id="@+id/button"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_alignTop="@+id/button2" android:layout_alignParentEnd="true"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="336dp" android:layout_alignParentStart="true"
+            android:id="@+id/listview" android:layout_alignParentBottom="true"/>
+    <ImageView
+            android:layout_width="130dp"
+            android:layout_height="99dp" app:srcCompat="@drawable/bitlogo"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView7" android:layout_alignParentTop="true" android:visibility="visible"
+    />
+    <ImageView
+            android:layout_width="34dp"
+            android:layout_height="31dp" app:srcCompat="@drawable/ic_phone"
+            android:id="@+id/imageView2"
+            android:visibility="visible" android:layout_alignTop="@+id/button8"
+            android:layout_alignStart="@+id/button4"/>
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="33dp" app:srcCompat="@drawable/ic_photo_camera"
+            android:id="@+id/imageView8" android:layout_alignTop="@+id/button2" android:layout_toStartOf="@+id/button"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="36dp" app:srcCompat="@drawable/ic_add"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView9" android:layout_alignBottom="@+id/button2" android:visibility="visible"/>
+    <ImageView
+            android:layout_width="38dp"
+            android:layout_height="28dp" app:srcCompat="@drawable/ic_mail"
+            android:id="@+id/imageView10" android:layout_alignParentTop="true" android:layout_toStartOf="@+id/button8"/>
+    <TextView
+            android:text="Job Status"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginTop="142dp"
+            android:id="@+id/textView16"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_alignEnd="@+id/button2"/>
+
+</RelativeLayout>
